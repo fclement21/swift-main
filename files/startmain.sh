@@ -8,7 +8,7 @@
 SWIFT_PART_POWER=${SWIFT_PART_POWER:-7}
 SWIFT_PART_HOURS=${SWIFT_PART_HOURS:-1}
 SWIFT_REPLICAS=${SWIFT_REPLICAS:-1}
-replication= #INSERT IP HERE
+replication='' #INSERT IP HERE
 
 if [ -e /srv/account.builder ]; then
 	echo "Ring files already exist in /srv, copying them to /etc/swift..."
